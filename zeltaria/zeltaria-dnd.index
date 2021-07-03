@@ -3,11 +3,11 @@
 	<info>
 		<name>Zeltaria Campaign Setting</name>
 		<update version="0.0.1">
-			<file name="zeltaria-dnd.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/master/zeltaria/zeltaria-dnd.index" />
+			<file name="zeltaria-dnd.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/zeltaria-dnd.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/master/zeltaria/source.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/source.xml" />
 	
 	</files>
 </index>
