@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<name>r/DnD</name>
+		<name>Zeltaria Campaign Setting</name>
 		<update version="0.0.1">
 			<file name="zeltaria-dnd.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/master/zeltaria/zeltaria-dnd.index" />
 		</update>
