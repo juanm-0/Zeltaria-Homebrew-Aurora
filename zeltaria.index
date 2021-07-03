@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="0.0.7">
+		<update version="1.0">
 			<file name="zeltaria.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria.index" />
 		</update>
 	</info>
