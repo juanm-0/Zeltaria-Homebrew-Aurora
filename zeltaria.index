@@ -6,6 +6,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="zeltaria-dnd.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria-dnd.index" />
+		<file name="zeltaria-dnd.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/zeltaria-dnd.index" />
 	</files>
 </index>
