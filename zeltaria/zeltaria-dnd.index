@@ -8,6 +8,7 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/source.xml" />
-	
+	<!-- items -->
+		<file name="items.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/items/items.xml" />
 	</files>
 </index>
