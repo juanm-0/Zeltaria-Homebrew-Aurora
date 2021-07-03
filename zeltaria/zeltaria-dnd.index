@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>r/DnD</name>
+		<update version="0.0.1">
+			<file name="zeltaria-dnd.index" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/master/zeltaria/zeltaria-dnd.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/master/zeltaria/source.xml" />
+	
+	</files>
+</index>
