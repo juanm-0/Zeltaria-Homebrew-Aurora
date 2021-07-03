@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Zeltaria Campaign Setting" type="Source" source="Core" id="ID_ZCS_SOURCE">
+		<description>
+			<p><strong>Zeltaria Campaign Setting</strong></p>
+			<p>Custom homebrew for Zeltaria Campaign</p>
+			<ul>
+				<li>Uncover a trove of new options usable in any D&amp;D game, featuring subclasses, spells, magic items, monsters, and more, rooted in the adventures of The Vagabaonds</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="abbreviation">ZCS</set>
+            <set name="url">https://dnd.wizards.com/products</set>
+			<set name="official">false</set>
+			<set name="supplement">true</set>
+			<set name="release">20210703</set>
+		</setters>
+	</element>	
+</elements>

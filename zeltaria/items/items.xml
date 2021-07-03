@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Brooch of Celestia" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_BROOCH_OF_CELESTIA">
+		<description>
+			<p>As symbols of a lost faction that did not survive the tides of passing ages, so now these once highly regarded beacons of this fallen order still hold some regard where oaths still hold sway.</p>
+            <p class="indent">This must be <strong>worn</strong> on the outside of clothing to function.</p>
+            <p>Defending ground against aggressive oppression will unlock this item's functions for the users.</p>
+            <p class="indent"><strong><em>Unlocked</em></strong> Once the brooch is unlocked, the user is granted the following boons:</p>
+            <ul>
+                <li><strong><em>All For One</em></strong> The healing pool for <em>Lay On Hands</em> has an additional +5 hit points of recovery.</li>
+                <li><strong><em>One For All</em></strong> When dealing damage with <em>Divine Smite</em> the user can reroll 1's but must take the second roll</li>
+            </ul>
+		</description>
+		<setters>
+			<set name="keywords">resistance, paladin, smite</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">neck</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+    <element name="Cinderstorm Gauntlets (Dormant)" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_CINDERSTORM_GAUNTLETS_DORMANT">
+		<description>
+			<p>Forged from the union of two Hexad representatives, the two powerful giants of storm and fire imbued the essence of an elemental into a respective gauntlet, creating an armament that is capable of harnessing fire and lightning. The right gauntlet is built out of metals heated in The Anvil Spire, capable of withstanding the hottest of temperatures. A metal sculpted into a fire elemental looking figure marks this gauntlet, with its eyes glowing bright red. It is warm to the touch, with a beautiful gold trim on the obsidian coloured metal and carved along the wrist section in giant says: Fortitude through the flames of origin. The left gauntlet resembles a typical scale gauntlet, but with five gems embedded for each finger, and a dull gem covered up by a helmet-like design that makes the gem look like eyes. The scales are made from dragon scales, blue in colour. Engraved on the wrist which is of a silver finish reads in giant: Bring forth the fury of the storm.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The gauntlets grant the following benefits in its dormant state:</p>
+			<ul>
+				<li>Your Strength score becomes 21 if it isn't already 21 or higher.</li>
+                <li>You can use an action to become a Cinderstorm Avatar for 1 minute, gaining the following benefits</li>
+                <li>When you hit with a weapon or melee attack that normally deals bludgeoning damage, you can decide whether it deals lightning or fire damage.</li>
+                <li>As a bonus action, you can choose one creature you can see within 30 feet of you to be struck by lightning or engulfed in flames. The target must make a DC 15 Dexterity saving throw, taking 3d6 lightning or fire damage on a failed save, or half as much damage on a successful one.</li>
+			</ul>
+            <p class="indent">Once you use the gauntlet's Cinderstorm Avatar property, that property can’t be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="keywords">damage</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">1</set>
+            <set name="slot">arms</set>
+		</setters>
+		<rules>
+			<stat name="strength:score:set" value="21" bonus="base" />
+		</rules>
+	</element>
+    <element name="Ring of Myrkul" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_RING_OF_MYRKUL">
+		<description>
+			<p>The ring consists of a gold band painted black and adorned with the white skull of Myrkul. It glows faintly in the presence of a detect good and evil spell.</p>
+            <p>While wearing the ring, undead with an <em>Intelligence score of 9 or less</em> do not attack the ring’s wearer unless the wearer attacks them first. The wearer may commune with any undead, both verbally and telepathically, within line of sight and gains advantage on Charisma checks when interacting with intelligent undead.</p>
+            <p>The ring has 7 charges. While wearing it, you can use an action to cast spells with a +7 to hit with ranged spell attacks and a Spell Save DC 15:</p>
+            <ul>
+                <li>Chill touch (No charge)</li>
+                <li>Chill touch - 5th level (1 charge)</li>
+            </ul>
+            <p class="indent"><strong><em>Ghoul Touch</em></strong>You can expend 2 charges as an action to emulate the claw attack of a ghoul. Target one creature within 5 feet that is not an elf or undead. That target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. While paralyzed, it exudes a carrion stench in a 10-foot radius. Living creatures other than the ring’s wielder that start their turn in the radius must pass a DC 11 constitution saving throw or become poisoned until they are no longer in the stench.</p>
+            <p class="indent"><strong><em>Curse</em></strong>Wearing the ring for an extended period causes one’s body temperature to drop several degrees cooler, over time the wearer’s skin loses its pigment, and the wearer’s voice becomes more like a raspy whisper. The ring cannot be removed other than by a remove curse spell. Sufficiently evil intelligent creatures within 30 feet are drawn to the power of the ring, with a strong desire to touch and possess it, usually becoming hostile to the wearer. The pull of the ring can be overpowering; a DC 15 Wisdom save releases an affected creature from the compulsion. A creature that successfully saves must repeat the saving throw 1d10 hours later if they are still within range.</p>
+            <p class="indent"><strong><em>Awakened (Uthtower Arisen)</em></strong> When the wearer of the ring is within 1 mile of the raised Uthtower, all spells cast by the ring cost half the normal charges (minimum of 1)</p>
+            <p>When the Uthtower rises, the ring is now able to cast the following spells:</p>
+            <ul>
+                <li>Finger of Death (6 charges)</li>
+                <li>Vampiric Touch (3 charges)</li>
+            </ul>
+        </description>
+		<setters>
+			<set name="category">Rings</set>
+			<set name="type">Ring</set>
+			<set name="rarity">Legendary</set>
+			<set name="slot">ring</set>
+			<set name="equippable">true</set>
+			<set name="attunement">true</set>
+		</setters>
+	</element>
+    <element name="Spark Stone" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_SPARK_STONE">
+		<description>
+			<p>This smooth and almost blackened sphere holds remnants of jagged obsidian near its edges that lay in stark contrast to the almost polished object in its clutches. This smooth orb is not quite jet black but shares several similar hues with the obsidian rock. Yet, buried within seems to be pulsating crimson veins underneath its surface. It resembles a lightning bolt in flight, capturing the moment in time.</p>
+            <p class="indent">To gain the abilities of the stone, the wielder must crush the orb within their hands using an action. This action can only be done once, depleting the magic and dissolving the orb to obsidian dust.</p>
+            <ul>
+                <li>The wielder gains the ability to ignite their hands  in magical flames as a free action.</li>
+                <li>While ignited, the wielder deals an additional 1d6 fire damage to any unarmed or natural weapon attack, no matter what form the wielder has assumed.</li>
+                <li>This is considered a lightsource, casting bright light for 5ft and dim light for an additional 15ft.</li>
+            </ul>
+		</description>
+		<setters>
+			<set name="keywords">stone light fire</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type">Wondrous Item</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+    <element name="Weaveparter (Dormant)" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_WEAVEPARTER_DORMANT">
+		<compendium display="false" />
+		<description>
+			<p>Forged with a black metal from the Shadowfell, the light that hits this blade seems to disappear, completely unreflected. A faint wisp of purple-ish black smoke seems to emanate from the curved blade. Upon holding the blade, the wisps of black smoke move like tendrils that wrap the hand that holds it, as if latching on. This curved scimitar was created by Shar to combat against Mystra and the Weave.</p>
+			<p class="indent"><strong><em>Sentience.</em></strong> The Weaveparter is a sentient lawful evil weapon with an Intelligence of 24, a Wisdom of 21, and a Charisma of 20. It has hearing and darkvision up to a range of 120 feet.</p>
+			<p class="indent">The weapon communicates telepathically with its wielder and can speak, read, and understand Deep Speech, Undercommon, and Common.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> A xenophobic Death Tyrant named Katerax lives within the Weaveparter. The weapon yearns to kill creatures that transform such as Lycanthropes, Shifters, and the like. The xenophobic nature of Katerax becomes embodied in the wielder, encouraging them to become more spiteful towards others of a different race. A fragment of Azurna, the Revenancer, lies dormant within the Weaveparter, creating a split personality between the two.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The scimitar grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You can speak, read, and write Undercommon.</li>
+				<li>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</li>
+                <li>While attuned to Weaveparter, you can use an action to cast Cloak of Shadow once per day. Shadows are released from the blade, engulfing your form in a cloak, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</li>
+                <li>One a day, you are able to cast Darkness.</li>
+                <li>As a reaction, once per day you are able to cast Counterspell at 3rd level.</li>
+                <li>While attuned to the artifact, your eyes turn black like the shadows that emanate from this blade.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="weapon">Scimitar</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">1</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+		</rules>
+	</element>
+    <element name="Weaveparter (Awakened)" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_WEAVEPARTER_AWAKENED">
+		<compendium display="false" />
+		<description>
+			<p>Forged with a black metal from the Shadowfell, the light that hits this blade seems to disappear, completely unreflected. A faint wisp of purple-ish black smoke seems to emanate from the curved blade. Upon holding the blade, the wisps of black smoke move like tendrils that wrap the hand that holds it, as if latching on. This curved scimitar was created by Shar to combat against Mystra and the Weave.</p>
+			<p class="indent"><strong><em>Sentience.</em></strong> The Weaveparter is a sentient lawful evil weapon with an Intelligence of 24, a Wisdom of 21, and a Charisma of 20. It has hearing and darkvision up to a range of 120 feet.</p>
+			<p class="indent">The weapon communicates telepathically with its wielder and can speak, read, and understand Deep Speech, Undercommon, and Common.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> A xenophobic Death Tyrant named Katerax lives within the Weaveparter. The weapon yearns to kill creatures that transform such as Lycanthropes, Shifters, and the like. The xenophobic nature of Katerax becomes embodied in the wielder, encouraging them to become more spiteful towards others of a different race. A fragment of Azurna, the Revenancer, lies dormant within the Weaveparter, creating a split personality between the two.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The scimitar grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You can speak, read, and write Undercommon.</li>
+				<li>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</li>
+                <li>While attuned to Weaveparter, you can use an action to cast Cloak of Shadow once per day. Shadows are released from the blade, engulfing your form in a cloak, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</li>
+                <li>One a day, you are able to cast Darkness.</li>
+                <li>As a reaction, once per day you are able to cast Counterspell at 3rd level.</li>
+                <li>While attuned to the artifact, your eyes turn black like the shadows that emanate from this blade.</li>
+			</ul>
+            <p class="indent"><strong><em>Awakened.</em></strong> When the scimitar reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+                <li>When you hit a target with this weapon, the target takes an additional 1d6 psychic damage. The target must make a DC 15 Wisdom saving throw or become frightened of you for 1 minute.</li>
+				<li>As a reaction, once per day you are able to cast Counterspell at 4th level.</li>
+                <li>While attuned to the artifact, whenever you are in daylight you have disadvantage on Wisdom (Perception) checks that rely on sight.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="weapon">Scimitar</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">2</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+		</rules>
+	</element>
+    <element name="Weaveparter (Exalted)" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_WEAVEPARTER_EXALTED">
+		<description>
+			<p>Forged with a black metal from the Shadowfell, the light that hits this blade seems to disappear, completely unreflected. A faint wisp of purple-ish black smoke seems to emanate from the curved blade. Upon holding the blade, the wisps of black smoke move like tendrils that wrap the hand that holds it, as if latching on. This curved scimitar was created by Shar to combat against Mystra and the Weave.</p>
+			<p class="indent"><strong><em>Sentience.</em></strong> The Weaveparter is a sentient lawful evil weapon with an Intelligence of 24, a Wisdom of 21, and a Charisma of 20. It has hearing and darkvision up to a range of 120 feet.</p>
+			<p class="indent">The weapon communicates telepathically with its wielder and can speak, read, and understand Deep Speech, Undercommon, and Common.</p>
+			<p class="indent"><strong><em>Personality.</em></strong> A xenophobic Death Tyrant named Katerax lives within the Weaveparter. The weapon yearns to kill creatures that transform such as Lycanthropes, Shifters, and the like. The xenophobic nature of Katerax becomes embodied in the wielder, encouraging them to become more spiteful towards others of a different race. A fragment of Azurna, the Revenancer, lies dormant within the Weaveparter, creating a split personality between the two.</p>
+			<p class="indent"><strong><em>Dormant.</em></strong> The scimitar grants the following benefits in its dormant state:</p>
+			<ul>
+				<li>You can speak, read, and write Undercommon.</li>
+				<li>You gain a +1 bonus to attack and damage rolls made with this magic weapon.</li>
+                <li>While attuned to Weaveparter, you can use an action to cast Cloak of Shadow once per day. Shadows are released from the blade, engulfing your form in a cloak, giving you advantage on Dexterity (Stealth) checks against creatures that rely on sight.</li>
+                <li>One a day, you are able to cast Darkness.</li>
+                <li>As a reaction, once per day you are able to cast Counterspell at 3rd level.</li>
+                <li>While attuned to the artifact, your eyes turn black like the shadows that emanate from this blade.</li>
+			</ul>
+            <p class="indent"><strong><em>Awakened.</em></strong> When the scimitar reaches an awakened state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +2.</li>
+                <li>When you hit a target with this weapon, the target takes an additional 1d6 psychic damage. The target must make a DC 15 Wisdom saving throw or become frightened of you for 1 minute.</li>
+				<li>A Counterspell cast from Weaveparter is now cast at 4th level.</li>
+                <li>While attuned to the artifact, whenever you are in daylight you have disadvantage on Wisdom (Perception) checks that rely on sight.</li>
+			</ul>
+            <p class="indent"><strong><em>Exalted.</em></strong> When the scimitar reaches an exalted state, it gains the following properties:</p>
+			<ul>
+				<li>The weapon’s bonus to attack and damage rolls increases to +3. The additional psychic damage increases to 1d8.</li>
+				<li>The saving throw DC for spells cast from the scimitar increases to 17.</li>
+				<li>A Counterspell cast from Weaveparter is now cast at 5th level.</li>
+                <li>Magical darkness doesn’t impede your darkvision.</li>
+                <li>While holding the weapon in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. This property can’t be used again until the next dawn.</li>
+			</ul>
+		</description>
+		<setters>
+			<set name="keywords">scimitar</set>
+			<set name="category">Magic Weapons</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="type" addition="scimitar">Weapon</set>
+			<set name="weapon">Scimitar</set>
+			<set name="rarity">Artifact</set>
+			<set name="attunement" addition="by a humanoid">true</set>
+			<set name="enhancement">3</set>
+		</setters>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+		</rules>
+	</element>
+    
+</elements>
