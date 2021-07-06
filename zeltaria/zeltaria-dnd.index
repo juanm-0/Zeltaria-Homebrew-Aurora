@@ -10,5 +10,7 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/source.xml" />
 	<!-- items -->
 		<file name="items.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/items/items.xml" />
+		<file name="argent-star-sentinel.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/backgrounds/argent-star-sentinel.xml" />
+		<file name="vandal-tribe-member.xml" url="https://raw.githubusercontent.com/juanm-0/zeltaria-homebrew-aurora/main/zeltaria/backgrounds/vandal-tribe-member.xml" />
 	</files>
 </index>
