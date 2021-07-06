@@ -3,22 +3,20 @@
 	<element name="Argent Star Sentinel" type="Background" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_SENTINEL">
 		<description>
 			<p>The Order of the Argent Star is an organization of knowledge seekers and scholars within the continent that follow the path of Oghma, Gond, and Mystra. The order believes in providing knowledge for all, archiving history as a means of avoiding repetition. The order also believes in exposing deceit and subterfuge and frequently works with the Shoravi Empire in order to uncover any attempts to overthrow it. Despite their close allegiances, the Order of the Argent Star believes the Empire is not without flaw, using this alliance as a means of exposing the truth.</p>
-			<p class="indent">Perhaps you’re motivated by belief in the law and a sense of universal justice, or maybe that very law, or rule, has failed you and you seek to make things right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you’re a seeker of truth, taking pleasure in uncovering deceit. Whether the mysteries you’re embroiled in are local crimes or realm-spanning conspiracies, you’re driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows, drawing you to the Order of the Argent Stars.</p>
+			<p class="indent">Perhaps you’re motivated by belief in the law and a sense of universal justice, or maybe that very law, or rule, has failed you and you seek to make things right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you’re a seeker of truth, taking pleasure in uncovering deceit. Perhaps you were once a thief who was caught, and was offered a new path in life. Whether the mysteries you’re embroiled in are local crimes or realm-spanning conspiracies, you’re driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows, drawing you to the Order of the Argent Stars.</p>
 			<ul class="unstyled">
-				<li><strong>Skill Proficiencies:</strong> Choose two from among Insight, Investigation, or Perception</li>
+				<li><strong>Skill Proficiencies:</strong> Choose two from among Insight, Investigation, Stealth, Sleight of Hand, or Perception</li>
 				<li><strong>Tool Proficiencies:</strong> Disguise kit</li>
 				<li><strong>Equipment:</strong> A magnifying glass, a notebook with the emblem of the Order of the Argent Star, a set of Argent Star Sentinel robes, and 10 gp</li>
 			</ul>
 			<div element="ID_ZCS_BACKGROUND_ARGENT_STAR_ARCHIVE_ACCESS" />
 		</description>
 		<setters>
-			<set name="short">2 Insight / Investigation / Perception, Disguise Kit</set>
+			<set name="short">2 Insight / Investigation / Perception / Stealth, Disguise Kit</set>
 		</setters>
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency, Argent Star Sentinel" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION" number="2" />
+			<select type="Proficiency" name="Skill Proficiency, Argent Star Sentinel" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" number="2" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
-			<grant type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_INVESTIGATOR_OFFICIAL_INQUIRY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
-			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
 			<select type="List" name="Personality Trait" number="2">
 				<item id="1">I idolize a particular hero, and constantly refer to that person’s deeds and example.</item>
 				<item id="2">I can find common ground between the fiercest opposing factions, empathizing with them and always working toward peace.</item>
