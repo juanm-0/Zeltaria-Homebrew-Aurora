@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<element name="Argent Star Sentinel" type="Background" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_SENTINEL">
+<elements>
+	<element name="Argent Star Sentinel" type="Background" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_SENTINEL">
 		<description>
 			<p>The Order of the Argent Star is an organization of knowledge seekers and scholars within the continent that follow the path of Oghma, Gond, and Mystra. The order believes in providing knowledge for all, archiving history as a means of avoiding repetition. The order also believes in exposing deceit and subterfuge and frequently works with the Shoravi Empire in order to uncover any attempts to overthrow it. Despite their close allegiances, the Order of the Argent Star believes the Empire is not without flaw, using this alliance as a means of exposing the truth.</p>
-            <p class="indent">Perhaps you’re motivated by belief in the law and a sense of universal justice, or maybe that very law, or rule, has failed you and you seek to make things right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you’re a seeker of truth, taking pleasure in uncovering deceit. Whether the mysteries you’re embroiled in are local crimes or realm-spanning conspiracies, you’re driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows, drawing you to the Order of the Argent Stars.</p>
+			<p class="indent">Perhaps you’re motivated by belief in the law and a sense of universal justice, or maybe that very law, or rule, has failed you and you seek to make things right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you’re a seeker of truth, taking pleasure in uncovering deceit. Whether the mysteries you’re embroiled in are local crimes or realm-spanning conspiracies, you’re driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows, drawing you to the Order of the Argent Stars.</p>
 			<ul class="unstyled">
 				<li><strong>Skill Proficiencies:</strong> Choose two from among Insight, Investigation, or Perception</li>
 				<li><strong>Tool Proficiencies:</strong> Disguise kit</li>
@@ -54,11 +55,12 @@
 			</select>
 		</rules>
 	</element>
-<element name="Feature: Argent Star Archive Access" type="Background Feature" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_ARCHIVE_ACCESS">
-	<description>
-		<p>Sentinels of the Order of the Argent Star gain special privileges that allow you to complete your tasks. Through your station as a Sentinel of the Order of the Argent Star, you can gain access to all information within the archives, as well as its various resources. Additionally, you are able to request one of the Argent Star's Chroniclers to research a particular subject.</p>
-	</description>
-	<sheet alt="Argent Star Archive Access">
-		<description>Sentinels of the Order of the Argent Star gain special privileges that allow you to complete your tasks. Through your station as a Sentinel of the Order of the Argent Star, you can gain access to all information within the archives, as well as its various resources. Additionally, you are able to request one of the Argent Star's Chroniclers to research a particular subject.</description>
-	</sheet>
-</element>
+	<element name="Feature: Argent Star Archive Access" type="Background Feature" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_ARCHIVE_ACCESS">
+		<description>
+			<p>Sentinels of the Order of the Argent Star gain special privileges that allow you to complete your tasks. Through your station as a Sentinel of the Order of the Argent Star, you can gain access to all information within the archives, as well as its various resources. Additionally, you are able to request one of the Argent Star's Chroniclers to research a particular subject.</p>
+		</description>
+		<sheet alt="Argent Star Archive Access">
+			<description>Sentinels of the Order of the Argent Star gain special privileges that allow you to complete your tasks. Through your station as a Sentinel of the Order of the Argent Star, you can gain access to all information within the archives, as well as its various resources. Additionally, you are able to request one of the Argent Star's Chroniclers to research a particular subject.</description>
+		</sheet>
+	</element>
+</elements>
