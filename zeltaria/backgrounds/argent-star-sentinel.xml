@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<element name="Argent Star Sentinel" type="Background" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_SENTINEL">
+		<description>
+			<p>The Order of the Argent Star is an organization of knowledge seekers and scholars within the continent that follow the path of Oghma, Gond, and Mystra. The order believes in providing knowledge for all, archiving history as a means of avoiding repetition. The order also believes in exposing deceit and subterfuge and frequently works with the Shoravi Empire in order to uncover any attempts to overthrow it. Despite their close allegiances, the Order of the Argent Star believes the Empire is not without flaw, using this alliance as a means of exposing the truth.</p>
+            <p class="indent">Perhaps you’re motivated by belief in the law and a sense of universal justice, or maybe that very law, or rule, has failed you and you seek to make things right. You could have witnessed something remarkable or terrible, and now you must know more about this hidden truth. Or maybe you’re a seeker of truth, taking pleasure in uncovering deceit. Whether the mysteries you’re embroiled in are local crimes or realm-spanning conspiracies, you’re driven by a personal need to hunt down even the most elusive clues and reveal what others would keep hidden in the shadows, drawing you to the Order of the Argent Stars.</p>
+			<ul class="unstyled">
+				<li><strong>Skill Proficiencies:</strong> Choose two from among Insight, Investigation, or Perception</li>
+				<li><strong>Tool Proficiencies:</strong> Disguise kit</li>
+				<li><strong>Equipment:</strong> A magnifying glass, a notebook with the emblem of the Order of the Argent Star, a set of Argent Star Sentinel robes, and 10 gp</li>
+			</ul>
+			<div element="ID_ZCS_BACKGROUND_ARGENT_STAR_ARCHIVE_ACCESS" />
+		</description>
+		<setters>
+			<set name="short">2 Insight / Investigation / Perception, Disguise Kit</set>
+		</setters>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency, Argent Star Sentinel" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION" number="2" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT" />
+			<grant type="Background Feature" id="ID_WOTC_VRGTR_BACKGROUND_FEATURE_INVESTIGATOR_OFFICIAL_INQUIRY" requirements="!ID_INTERNAL_GRANT_OPTIONAL_BACKGROUND_FEATURE"/>
+			<select type="Background Feature" name="Variant Feature" supports="Optional Background Feature" optional="true" />
+			<select type="List" name="Personality Trait" number="2">
+				<item id="1">I idolize a particular hero, and constantly refer to that person’s deeds and example.</item>
+				<item id="2">I can find common ground between the fiercest opposing factions, empathizing with them and always working toward peace.</item>
+				<item id="3">I see omens in every event and action. The gods try to speak to us, or fate places us in situations, and we just need to listen and act.</item>
+				<item id="4">Nothing can shake my optimistic attitude.</item>
+				<item id="5">I quote (or misquote) sacred texts and proverbs in almost every situation.</item>
+				<item id="6">I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.</item>
+				<item id="7">I’ve enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me.</item>
+				<item id="8">I’ve spent so much time in espionage and being undercover that I have little trust with people in the outside world.</item>
+			</select>
+			<select type="List" name="Ideal">
+				<item id="1">Tradition. The ancient traditions of history must be preserved and upheld. (Lawful)</item>
+				<item id="2">Charity. I always try to help those in need, no matter what the personal cost. (Good)</item>
+				<item id="3">Change. We must help bring about the changes that are constantly working in the world and avoid stagnation. (Chaotic)</item>
+				<item id="4">Power. I hope to one day rise to the top of my organization's hierarchy. (Lawful)</item>
+				<item id="5">Faith. I trust that my deity will guide my actions. I have faith that if I work towards the truth, things will go well. (Lawful)</item>
+				<item id="6">Aspiration. I seek to prove myself worthy of favor by matching my actions against the organization's teachings and ideals. (Any)</item>
+			</select>
+			<select type="List" name="Bond">
+				<item id="1">I would die to recover an ancient relic that was lost long ago.</item>
+				<item id="2">I will someday get revenge on the individual who betrayed my organization.</item>
+				<item id="3">I owe my life to the individuals who took me in when my parents died.</item>
+				<item id="4">Everything I do is for the common people.</item>
+				<item id="5">I will do anything to protect the order I serve.</item>
+				<item id="6">I seek to preserve the truth that opposing individuals seek to destroy.</item>
+			</select>
+			<select type="List" name="Flaw">
+				<item id="1">I judge others harshly, and myself even more severely.</item>
+				<item id="2">I put too much trust in those who wield power within my order's hierarchy.</item>
+				<item id="3">I sometimes blindly trust those that profess faith in my order's patrons.</item>
+				<item id="4">I am inflexible in my thinking.</item>
+				<item id="5">I am suspicious of strangers and expect the worst of them.</item>
+				<item id="6">Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.</item>
+			</select>
+		</rules>
+	</element>
+<element name="Feature: Argent Star Archive Access" type="Background Feature" source="Zeltaria Campaign Setting" id="ID_ZCS_BACKGROUND_ARGENT_STAR_ARCHIVE_ACCESS">
+	<description>
+		<p>Sentinels of the Order of the Argent Star gain special privileges that allow you to complete your tasks. Through your station as a Sentinel of the Order of the Argent Star, you can gain access to all information within the archives, as well as its various resources. Additionally, you are able to request one of the Argent Star's Chroniclers to research a particular subject.</p>
+	</description>
+	<sheet alt="Argent Star Archive Access">
+		<description>Sentinels of the Order of the Argent Star gain special privileges that allow you to complete your tasks. Through your station as a Sentinel of the Order of the Argent Star, you can gain access to all information within the archives, as well as its various resources. Additionally, you are able to request one of the Argent Star's Chroniclers to research a particular subject.</description>
+	</sheet>
+</element>
