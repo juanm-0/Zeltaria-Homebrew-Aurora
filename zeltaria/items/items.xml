@@ -95,7 +95,6 @@
 		</setters>
 	</element>
     <element name="Weaveparter (Dormant)" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_WEAVEPARTER_DORMANT">
-		<compendium display="false" />
 		<description>
 			<p>Forged with a black metal from the Shadowfell, the light that hits this blade seems to disappear, completely unreflected. A faint wisp of purple-ish black smoke seems to emanate from the curved blade. Upon holding the blade, the wisps of black smoke move like tendrils that wrap the hand that holds it, as if latching on. This curved scimitar was created by Shar to combat against Mystra and the Weave.</p>
 			<p class="indent"><strong><em>Sentience.</em></strong> The Weaveparter is a sentient lawful evil weapon with an Intelligence of 24, a Wisdom of 21, and a Charisma of 20. It has hearing and darkvision up to a range of 120 feet.</p>
@@ -164,7 +163,8 @@
 		</rules>
 	</element>
     <element name="Weaveparter (Exalted)" type="Magic Item" source="Zeltaria Campaign Setting" id="ID_ZCS_MAGIC_ITEM_WEAVEPARTER_EXALTED">
-		<description>
+				<compendium display="false" />
+	    <description>
 			<p>Forged with a black metal from the Shadowfell, the light that hits this blade seems to disappear, completely unreflected. A faint wisp of purple-ish black smoke seems to emanate from the curved blade. Upon holding the blade, the wisps of black smoke move like tendrils that wrap the hand that holds it, as if latching on. This curved scimitar was created by Shar to combat against Mystra and the Weave.</p>
 			<p class="indent"><strong><em>Sentience.</em></strong> The Weaveparter is a sentient lawful evil weapon with an Intelligence of 24, a Wisdom of 21, and a Charisma of 20. It has hearing and darkvision up to a range of 120 feet.</p>
 			<p class="indent">The weapon communicates telepathically with its wielder and can speak, read, and understand Deep Speech, Undercommon, and Common.</p>
